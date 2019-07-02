@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<a href="menu.html"><h1>Revenge Shop</h1></a>
+	<div class="coba">
+      <ul>
+        <li class="aktif"><a href="menu.html">Home</a></li>
+		<li class="aktif" style="float: right">
+			<form name="formcari" onSubmit="cari()">
+			<input name="keyword" size="40" type="text">
+			<input type="submit" value="Search Google">
+			</form>
+		</li>
+      </ul>
+    </div>
+	<br>
+	<div class="hp">
+		<h4>Selamat Datang di Revenge Shop <br></h4>
+		<form name="ini" action="strukhp.php" method="post" enctype="multipart/form-data">
+     	    Daftar Barang Handphone :<br>
+     	   <p>
+     	   1.Redmi Note 9 = Rp.4.000.000,00 <input type="text" name="a" size="1" value="0">/Unit <br>
+     	   2.Redmi Note 5 = Rp.2.000.000,00 <input type="text" name="b" size="1" value="0">/Unit<br>
+     	   3.Redmi Mi 9 = Rp.9.000.000,00 <input type="text" name="c" size="1" value="0">/Unit<br>
+		   4.Pocophone f1 = Rp.4.500.000,00 <input type="text" name="d" size="1" value="0">/Unit<br>
+		   5.Realme 3 Pro = Rp.3.500.000,00 <input type="text" name="e" size="1" value="0">/Unit<br>
+     	   <input type="checkbox" name="total">Saya Setuju Dengan Syarat dan Ketentuan Yang Berlaku<br>
+		   <input type="checkbox" name="kembalian">Sudah Yakin Untuk Membeli?<br>
+		   Masukan Uang Anda : <input type="text" size="10" value="0" name="f"><br>
+     	   </p>     
+     	   <input type="submit" name="upload" value=" Beli " onclick="hitung()"/>
+    </form>
+	</div><br>
+	<div class="penjelasan">
+	<p style="font-size: 20px">Selamat Berbelanja</p>
+	@Copyright 2019<a href="copyright.txt"> <b style="color: blue">Here</b></a>
+	</div>	
+<script src="main.js"></script>
+</body>
+</html>

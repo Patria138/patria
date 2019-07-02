@@ -1,0 +1,75 @@
+
+.judul{
+			text-align: center;
+			border: 2px solid;
+			padding: 105px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+.nama{
+			float: left;
+			border: 2px solid;
+			text-align: center;
+			padding: 50px;
+			padding-left: 54px;
+			padding-right: 52px;
+			padding-bottom: 58px;
+		}
+body{
+	background-image: url(bckgrn.jpg);
+}
+.data{
+			border: 2px solid;
+			float: right;
+			padding: inherit;
+			padding-left: 421px;
+			padding-right: 422px;
+			padding-bottom: 56px;
+			text-align: center;
+		}
+.uad{
+			float: right;			
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			border: 2px solid;
+			text-align: center;
+			padding-right: 37.4%;
+			padding-left: 37%;
+		}
+a{
+	text-align: center;
+	text-decoration : none;
+	color: black;
+}
+ul{
+        list-style-type : none;
+        color : blue;
+        padding : 0;
+        margin : 0;
+        overflow : hidden;
+        background-color : #4E4D4D;
+      }
+      li{
+        float : left;
+      }
+      li a{
+        color : white;
+        display : block;
+        padding : 20px 20px;
+        font-size : 20px;
+        text-decoration : none;
+      }
+      li a:hover{
+        background-color : blue;
+      }
+      .aktif{
+        background-color : #495F9A;
+      }
+      .tes{
+        font-size : 20px;
+      }
+.penjelasan{
+	text-align: center;
+}
+.hp{
+	text-align: center;
+	border: 2px solid;
+}
